@@ -1,0 +1,27 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(JETBRAINSMONO-REGULAR.TTF);
+}
+
+body {
+    background-color: #191919;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: defaultFont;
+    text-decoration-line: underline;
+}
+
+p {
+    color: white;
+    font-family: defaultFont;
+}
