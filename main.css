@@ -41,3 +41,25 @@ p {
 .projectLink:hover {
     color: #ff6600;
 }
+
+.magicButton {
+    background-color: #d2611a;
+    color: white;
+    font-family: defaultFont;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.magicButton:hover {
+    background-color: #ff6600;
+    color: white;
+    font-family: defaultFont;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
