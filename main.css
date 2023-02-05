@@ -1,11 +1,11 @@
 @font-face {
     font-family: titleFont;
-    src: url(UbuntuMono-Bold.ttf);
+    src: url(Fonts/UbuntuMono-Bold.ttf);
 }
 
 @font-face {
     font-family: defaultFont;
-    src: url(Ubuntu-Medium.ttf);
+    src: url(Fonts/Ubuntu-Medium.ttf);
 }
 
 body {
