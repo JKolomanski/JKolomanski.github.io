@@ -53,6 +53,7 @@ p {
     text-align: center;
     margin: 4px 2px;
     border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
 }
 
 .magicButton:hover {
@@ -64,4 +65,5 @@ p {
     text-align: center;
     margin: 4px 2px;
     border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
 }
