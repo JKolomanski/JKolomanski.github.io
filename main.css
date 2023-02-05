@@ -30,3 +30,11 @@ p {
     color: white;
     font-family: defaultFont;
 }
+
+.projectLink {
+    color: #d2611a;
+}
+
+.projectLink:hover {
+    color: #ff6600;
+}
