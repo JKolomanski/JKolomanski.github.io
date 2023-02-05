@@ -1,6 +1,11 @@
 @font-face {
+    font-family: titleFont;
+    src: url(UbuntuMono-Bold.ttf);
+}
+
+@font-face {
     font-family: defaultFont;
-    src: url(JETBRAINSMONO-REGULAR.TTF);
+    src: url(Ubuntu-Medium.ttf);
 }
 
 body {
@@ -9,7 +14,7 @@ body {
 
 h1 {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: titleFont;
     font-size: 60px;
     text-align: center;
 }
@@ -17,7 +22,7 @@ h1 {
 h2 {
     color: white;
     font-size: 30px;
-    font-family: defaultFont;
+    font-family: titleFont;
     text-decoration-line: underline;
 }
 
