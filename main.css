@@ -36,10 +36,12 @@ p {
 
 .projectLink {
     color: #d2611a;
+    font-family: defaultFont;
 }
 
 .projectLink:hover {
     color: #ff6600;
+    font-family: defaultFont;
 }
 
 .magicButton {
