@@ -18,6 +18,7 @@ nav {
     margin-top: 2vh;
     margin-left: 1vw;
     margin-right: 1vw;
+    box-shadow: 3px 3px 5px #131313;
 
 }
 
@@ -73,7 +74,7 @@ p {
     text-align: center;
     margin: 4px 2px;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px #131313;
 }
 
 .magicButton:hover {
