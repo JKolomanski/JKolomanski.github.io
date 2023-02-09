@@ -72,3 +72,8 @@ p {
 .photo {
     border-radius: 15px;
 }
+
+.inlineText {
+    color: white;
+    font-family: defaultFont;
+}
