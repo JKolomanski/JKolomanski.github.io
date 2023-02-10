@@ -55,14 +55,75 @@ p {
     font-family: defaultFont;
 }
 
-.projectLink {
-    color: #d2611a;
-    font-family: defaultFont;
+.projectCard {
+
+    text-align: center;
+    display: inline-table;
+    background-color: #272727;
+    height: 400px;
+    width: 400px;
+    border-radius:30px;
+    margin: 3vw;
+    box-shadow: 3px 3px 5px #131313;
+    position: relative;
 }
 
-.projectLink:hover {
-    color: #ff6600;
+.projectCardImage {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 3px 3px 5px#131313;
+}
+
+.projectCardText {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.projectButton {
+    display: inline-block;
+    background-color: #d2611a;
+    color: white;
+    font-size: 20px;
+    width: 360px;
     font-family: defaultFont;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #131313;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.projectButton:hover {
+    left: 50%;
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    width: 360px;
+    font-family: defaultFont;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #131313;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .magicButton {
