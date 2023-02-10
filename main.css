@@ -13,11 +13,11 @@ nav {
     height: 60px;
     border-radius: 10px;
     position: fixed;
-    width: 98%;
+    width: 99%;
     top: 0;
-    margin-top: 2vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
     box-shadow: 3px 3px 5px #131313;
 
 }
