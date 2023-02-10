@@ -19,6 +19,7 @@ nav {
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     box-shadow: 3px 3px 5px #131313;
+    z-index: 1;
 
 }
 
