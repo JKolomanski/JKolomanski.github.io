@@ -56,6 +56,16 @@ p {
     font-family: defaultFont;
 }
 
+.link {
+    color: white;
+    font-family: defaultFont;
+}
+
+.link:hover {
+    color: #ff6600;
+    font-family: defaultFont;
+}
+
 .projectCard {
 
     text-align: center;
