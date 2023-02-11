@@ -127,36 +127,6 @@ p {
     cursor: pointer;
 }
 
-.magicButton {
-    background-color: #d2611a;
-    color: white;
-    font-family: defaultFont;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    margin: 4px 2px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px #131313;
-}
-
-.magicButton:hover {
-    background-color: #ff6600;
-    color: white;
-    font-family: defaultFont;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    margin: 4px 2px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px black;
-    cursor: pointer;
-}
-
 .photo {
     border-radius: 15px;
-}
-
-.inlineText {
-    color: white;
-    font-family: defaultFont;
 }

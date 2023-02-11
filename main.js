@@ -1,8 +1,3 @@
-function magicButtonClicked() {
-    alert('Hello world!')
-    window.open('https://github.com/JKolomanski')
-}
-
 function spaceWarButtonClicked(){
     window.open('https://github.com/JKolomanski/SpaceWar')
 }
