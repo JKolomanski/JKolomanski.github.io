@@ -85,10 +85,11 @@ p {
     background-color: #272727;
     height: 400px;
     width: 400px;
-    border-radius:30px;
+    border-radius:25px;
     margin: 3vw;
     box-shadow: 3px 3px 5px #131313;
     position: relative;
+    overflow: hidden;
 }
 
 .projectCardImage {
@@ -96,8 +97,6 @@ p {
     position: relative;
     height: 200px;
     width: 400px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     box-shadow: 3px 3px 5px#131313;
 }
 
