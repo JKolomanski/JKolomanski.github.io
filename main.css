@@ -81,6 +81,7 @@ p {
 
 .projectCardImage {
     display: inline-block;
+    position: relative;
     height: 200px;
     width: 400px;
     border-top-left-radius: 30px;
@@ -90,9 +91,10 @@ p {
 
 .projectCardText {
     display: inline-block;
+    position: relative;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 90px;
 }
 
 .projectButton {
