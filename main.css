@@ -110,7 +110,7 @@ p {
 
 .projectButton {
     display: inline-block;
-    background-color: #d2611a;
+    background-color: #ff6600;
     color: white;
     font-size: 20px;
     width: 360px;
@@ -130,7 +130,7 @@ p {
 .projectButton:hover {
     left: 50%;
     display: inline-block;
-    background-color: #ff6600;
+    background-color: #f05f11;
     color: white;
     font-size: 20px;
     text-decoration-line: underline;
@@ -148,6 +148,7 @@ p {
     margin-left: 20px;
     margin-bottom: 20px;
     cursor: pointer;
+    transform: scale(1.015);
 }
 
 .photo {
