@@ -41,7 +41,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pageContent {
-    margin: 20px;
     margin-top: 100px;
 }
 
@@ -56,6 +55,7 @@ h1 {
 }
 
 h2 {
+    margin-left: 15px;
     color: white;
     font-size: 30px;
     font-family: titleFont;
@@ -63,12 +63,8 @@ h2 {
     text-decoration-color: #ff6600;
 }
 
-p {
-    color: white;
-    font-family: defaultFont;
-}
-
-.link {
+.link, p {
+    margin-left: 35px;
     color: white;
     font-family: defaultFont;
 }
@@ -156,9 +152,6 @@ p {
 }
 
 @media (max-width: 576px) {
-    .pageContent {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+    
 }
 
