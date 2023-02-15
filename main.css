@@ -155,11 +155,6 @@ p {
     transform: scale(1.015);
 }
 
-.photo {
-    border-radius: 15px;
-}
-
-
 @media (max-width: 576px) {
     .pageContent {
         margin-left: 0px;
