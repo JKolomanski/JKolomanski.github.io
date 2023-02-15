@@ -86,12 +86,9 @@ p {
 }
 
 .projectCard {
-
     text-align: center;
     background-color: #272727;
     border-radius:25px;
-    margin: 1vw;
-    
     box-shadow: 3px 3px 5px #131313;
     position: relative;
     overflow: hidden;
