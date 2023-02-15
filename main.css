@@ -159,8 +159,10 @@ p {
     border-radius: 15px;
 }
 
-/*
-@media (min-width: 576px) {
 
+@media (max-width: 576px) {
+    .pageContent {
+        margin: 0px;
+    }
 }
-*/
+
