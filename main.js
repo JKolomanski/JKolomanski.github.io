@@ -9,3 +9,12 @@ function mapGeneratorButtonClicked(){
 function JKolomanskiGithubIoButtonClicked(){
     window.open('https://github.com/JKolomanski/JKolomanski.github.io')
 }
+
+function displayNavBar() {
+    fetch("navbar.html")
+        .then((response) => response.text())
+        .then(
+          (text) =>
+            (document.getElementById("navbarContainer").innerHTML = text)
+        );
+}
