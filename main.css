@@ -77,19 +77,26 @@ p {
     color: #ff6600;
     font-family: defaultFont;
 }
+.projectCards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
 
 .projectCard {
 
     text-align: center;
-    display: inline-table;
     background-color: #272727;
-    height: 400px;
-    width: 400px;
     border-radius:25px;
-    margin: 3vw;
+    margin: 1vw;
+    
     box-shadow: 3px 3px 5px #131313;
     position: relative;
     overflow: hidden;
+    height: 400px;
+    width: 400px;
 }
 
 .projectCardImage {
@@ -154,3 +161,9 @@ p {
 .photo {
     border-radius: 15px;
 }
+
+/*
+@media (min-width: 576px) {
+
+}
+*/
