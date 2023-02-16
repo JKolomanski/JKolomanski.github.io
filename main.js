@@ -20,5 +20,5 @@ function displayNavBar() {
 }
 
 function redirectToAbout() {
-    window.location.replace('About/index.html');
+    window.location.replace('About/');
 }
