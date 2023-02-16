@@ -11,10 +11,14 @@ function JKolomanskiGithubIoButtonClicked(){
 }
 
 function displayNavBar() {
-    fetch("navbar.html")
+    fetch("../navbar.html")
         .then((response) => response.text())
         .then(
           (text) =>
             (document.getElementById("navbarContainer").innerHTML = text)
         );
+}
+
+function redirectToAbout() {
+    window.location.replace('About/index.html');
 }

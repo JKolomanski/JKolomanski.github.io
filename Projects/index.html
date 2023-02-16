@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    <script src="../main.js"></script>
+    <title>JKolomanski.github.io</title>
+  </head>
+  <body onload="displayNavBar();">
+    <div id="navbarContainer"></div>
+    <div class="pageContent">
+      <h2>My projects:</h2>
+      <div class="projectCards">
+        <div class="projectCard">
+          <img
+            class="projectCardImage"
+            src="ProjectCardImages/SpaceWar!.png"
+            alt="SpaceWar!"
+          />
+          <p class="projectCardText">
+            SpaceWar! is a simple asteroids-inspired game made in python with
+            pygame. This project was started by me to learn some basic python
+            and programming in general
+          </p>
+          <button class="projectButton" onclick="spaceWarButtonClicked()">
+            GitHub page
+          </button>
+        </div>
+        <div class="projectCard">
+          <img
+            class="projectCardImage"
+            src="ProjectCardImages/MapGenerator.png"
+            alt="MapGenerator"
+          />
+          <p class="projectCardText">
+            A simple Python script that creates randomly generated world maps
+          </p>
+          <button class="projectButton" onclick="mapGeneratorButtonClicked()">
+            GitHub page
+          </button>
+        </div>
+        <div class="projectCard">
+          <img
+            class="projectCardImage"
+            src="ProjectCardImages/JKolomanski.github.io.png"
+            alt="JKolomanski.github.io"
+          />
+          <p class="projectCardText">
+            My personal webpage project. Currently it's hosted using
+            Github-pages under the url: jkolomanski.github.io
+          </p>
+          <button
+            class="projectButton"
+            onclick="JKolomanskiGithubIoButtonClicked()"
+          >
+            GitHub page
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
