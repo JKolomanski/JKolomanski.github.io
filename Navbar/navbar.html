@@ -4,65 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" media="screen" href="navbar.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../Navbar/navbar.css"
+    />
   </head>
-  <style>
-    nav {
-      display: flex;
-      align-items: center;
-      background-color: #272727;
-      height: 60px;
-      border-radius: 10px;
-      position: fixed;
-      width: 99%;
-      top: 0;
-      margin-top: 0.5vw;
-      margin-left: 0.5vw;
-      margin-right: 0.5vw;
-      box-shadow: 3px 3px 5px #131313;
-      z-index: 1;
-    }
-
-    h1 {
-      color: white;
-      font-family: titleFont;
-      font-size: 20px;
-      line-height: 60px;
-      text-align: left;
-      margin: 0px;
-      margin-left: 20px;
-    }
-
-    .divider {
-      background-color: white;
-      width: 1px;
-      border-radius: 3px;
-      height: 70%;
-      z-index: 2;
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-
-    .navBarLink,
-    .navBarLink:hover {
-      margin-right: 30px;
-      margin-left: 0px;
-      color: white;
-      font-family: defaultFont;
-      font-size: 18px;
-      text-decoration-line: none;
-    }
-
-    .navBarLink:hover {
-      text-decoration-line: underline;
-    }
-  </style>
   <body>
     <nav>
       <h1>JKolomanski.github.io</h1>
       <div class="divider"><p></p></div>
-      <a href="../About/" class="navBarLink">About</a>
-      <a href="../Projects/" class="navBarLink">Projects</a>
+      <button class="navBtn" id="aboutBtn" onclick="aboutButtonClicked()">
+        About
+      </button>
+      <button class="navBtn" id="projectsBtn" onclick="projectsButtonClicked()">
+        Projects
+      </button>
     </nav>
   </body>
 </html>

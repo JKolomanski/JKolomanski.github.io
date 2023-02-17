@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #272727;
+    height: 60px;
+    border-radius: 10px;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    box-shadow: 3px 3px 5px #131313;
+    z-index: 1;
+  }
+
+  h1 {
+    color: white;
+    font-family: titleFont;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: left;
+    margin: 0px;
+    margin-left: 20px;
+  }
+
+  .divider {
+    background-color: white;
+    width: 1px;
+    border-radius: 3px;
+    height: 70%;
+    z-index: 2;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .navBtn {
+    margin-right: 30px;
+    margin-left: 0px;
+    font-family: defaultFont;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 300ms;
+    transition-property: color;
+  }
+
+  .navBtn:focus:after,
+  .navBtn:hover:after,
+  .navBtn.underline:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .navBtn:after {
+    content: "";
+    pointer-events: none;
+    bottom: -1px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 300ms;
+    transition-property: width, left;
+  }
