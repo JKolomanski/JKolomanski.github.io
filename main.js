@@ -10,15 +10,15 @@ function JKolomanskiGithubIoButtonClicked(){
     window.open('https://github.com/JKolomanski/JKolomanski.github.io')
 }
 
+function redirectToAbout() {
+    window.location.replace('About/');
+}
+
 function displayNavBar() {
-    fetch("../navbar.html")
+    fetch("../Navbar/navbar.html")
         .then((response) => response.text())
         .then(
           (text) =>
             (document.getElementById("navbarContainer").innerHTML = text)
         );
-}
-
-function redirectToAbout() {
-    window.location.replace('About/');
 }
