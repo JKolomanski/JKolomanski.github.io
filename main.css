@@ -24,18 +24,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background: #272727;
 }
-
-.pageContent {
-    margin-top: 100px;
-}
-
 h2 {
-    margin-left: 15px;
+    top: 0;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-family: titleFont;
-    text-decoration-line: underline;
-    text-decoration-color: #ff6600;
 }
 
 .link, p {
@@ -44,6 +37,30 @@ h2 {
     font-family: defaultFont;
 }
 
+
+.page-button, .page-button:hover {
+    background-color: #ff6600;
+    color: white;
+    font-size: 20px;
+    font-family: defaultFont;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #131313;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.page-button:hover {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+    transform: scale(1.015);
+}
 /*
 @media (max-width: 576px) {
     

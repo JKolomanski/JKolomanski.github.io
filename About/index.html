@@ -5,30 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="projects.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="about.css" />
     <script src="about.js"></script>
     <script src="../Navbar/navbar.js"></script>
     <title>JKolomanski.github.io</title>
   </head>
   <body onload="displayNavBar();">
     <div id="navbarContainer"></div>
-    <div class="pageContent">
-      <h2>About me:</h2>
-      <p>
-        My name is Jakub Kołomański (or Kuba in short). I am an uninteresting
-        guy
-        <br />
-        living in Radwanice, Poland (near the city of Wrocław) I like technology
-        <br />
-        and especially computer hardware. This is my main interest. I am also
-        <br />
-        trying to learn how to programm and other stuff (as you can see). <br />
-      </p>
-      <h2>Useful links:</h2>
-      <a href="https://github.com/JKolomanski" target="_blank" class="link"
-        >My github profile <br
-      /></a>
-      <p>My email: kubula@onet.eu</p>
+    <div class="aboutCards">
+      <div class="aboutCard" id="aboutMe">
+        <h2 class="cardTitle">Hello, world!</h2>
+        <div class="cardContent">
+          <img src="my-photo.jpg" alt="placeholder" />
+          <div class="textAndLinkContainer">
+            <p>
+              Hi, My name is Jakub Kołomański and welcome to my website! I'm an
+              18 year old amateur programmer and technology and IT enthusiast,
+              currently I'am living in Radwanice, a small town near the city of
+              Wrocław in Poland.<br />
+              <br />
+              On the right you can see my photo! ( I'm beautiful, I know )<br />
+              <br />
+              Here are some links, one to my GitHub account and the other to
+              copy my email to your clipboard:
+            </p>
+            <div class="links">
+              <button class="page-button" onclick="copyEmailToClipboard()">
+                Email
+              </button>
+              <button class="page-button" onclick="githubButtonClicked()">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutCard">
+        <h2 class="cardTitle">About this site</h2>
+        <p>
+          This is my personal wabpage! The project was started on february 4th,
+          2023 and currently it's still under construction. The goal is to use
+          it as a learning tool to help me learn basics of web development. In
+          the future I also plan to use it as a place to showcase some of my
+          other projects. Kind of like a project portfolio. Currently you can
+          visit the "Projects" tab and take a look at some of them, Have fun!
+        </p>
+      </div>
     </div>
   </body>
 </html>

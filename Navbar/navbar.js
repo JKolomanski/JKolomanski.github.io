@@ -17,7 +17,6 @@ function displayNavBar() {
         })
 }
 
-
 function aboutButtonClicked() {
    window.location.replace("../About/");
 }

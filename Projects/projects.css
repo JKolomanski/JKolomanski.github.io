@@ -34,27 +34,3 @@
     margin-right: 10px;
     margin-bottom: 100px;
 }
-
-.projectButton, .projectButton:hover {
-    background-color: #ff6600;
-    color: white;
-    font-size: 20px;
-    font-family: defaultFont;
-    width: 90%;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px #131313;
-    position: absolute;
-    bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.projectButton:hover {
-    text-decoration-line: underline;
-    text-decoration-color: white;
-    cursor: pointer;
-    transform: scale(1.015);
-}
