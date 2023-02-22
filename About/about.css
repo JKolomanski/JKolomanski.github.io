@@ -17,15 +17,26 @@
     box-shadow: 3px 3px 5px #131313;
     position: relative;
     overflow: hidden;
-    height: 400px;
+    min-height: 400px;
     width: 500px;
 }
 
 #aboutMe {
     width: 800px;
+    display: grid;
+    grid-auto-rows: min-content;
+
+    grid-template-areas:
+     'h h'
+     'p t'
+     'l1 l2';
+
+    grid-template-columns: min-content 520px auto;
 }
 
 .cardTitle {
+    grid-area: h;
+    column-width: auto;
     text-align: center;
     align-self: center;
     width: calc(100% - 60px);
@@ -37,15 +48,13 @@
     box-shadow: 3px 3px 5px #131313;
 }
 
-.cardContent {
-    display: flex;
-}
-
 img {
+    grid-area: p;
+    grid-template-columns: min-content;
+    grid-row: span 2 / auto;
     margin: 20px;
     margin-right: 0;
-    width:100%;
-    height: auto;
+    width: 260px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #131313;
 }
@@ -54,28 +63,67 @@ p {
     margin: 20px;
 }
 
-.textAndLinkContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 320px;
+.about-me-text {
+    grid-area: t;
+    align-self: center;
+    grid-auto-flow: row;
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
+    grid-area: l2;
 }
 
 .page-button {
     position: inherit;
-    width: 100px;
+    width: 130px;
     margin-top: 20px;
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .page-button:hover {
     position: inherit;
-    width: 100px;
+    width: 130px;
     margin-top: 20px;
     margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+@media (max-width: 840px) {
+    #aboutMe {
+        width: 500px;
+        grid-template-columns: min-content auto auto;
+    }
+
+    img {
+        width: 130px;
+        grid-row: span 1 / auto;
+    }
+   
+    .links {
+        grid-area: l1;
+    }
+
+    .about-me-text {
+        grid-row: span 2 / auto;
+    }
+
+    .page-button {
+        height: 60px;
+        position: inherit;
+        width: 130px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .page-button:hover {
+        height: 60px;
+        position: inherit;
+        width: 130px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
 }
