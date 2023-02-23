@@ -48,7 +48,7 @@
     box-shadow: 3px 3px 5px #131313;
 }
 
-img {
+#my-photo {
     grid-area: p;
     grid-template-columns: min-content;
     grid-row: span 2 / auto;
@@ -96,7 +96,7 @@ p {
         grid-template-columns: min-content auto auto;
     }
 
-    img {
+    #my-photo {
         width: 130px;
         grid-row: span 1 / auto;
     }

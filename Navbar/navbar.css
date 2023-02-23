@@ -14,6 +14,10 @@ nav {
     z-index: 1;
   }
 
+  #logo {
+    display: none;
+  }
+
   h1 {
     color: white;
     font-family: titleFont;
@@ -68,4 +72,23 @@ nav {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 300ms;
     transition-property: width, left;
+  }
+
+  @media (max-width: 840px) {
+    h1 {
+      display: none;
+    }
+
+    #logo {
+      display: inherit; 
+      margin: 0px;
+      margin-left: 20px;
+      height: 20px;
+      width: auto;
+    }
+
+    .divider {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
