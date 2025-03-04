@@ -9,3 +9,7 @@ function mapGeneratorButtonClicked(){
 function JKolomanskiGithubIoButtonClicked(){
     window.open('https://github.com/JKolomanski/JKolomanski.github.io')
 }
+
+function OXOButtonClicked(){
+    window.open('https://jkolomanski.shinyapps.io/oxo-2/')
+}
