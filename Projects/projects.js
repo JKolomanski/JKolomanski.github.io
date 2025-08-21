@@ -13,3 +13,7 @@ function JKolomanskiGithubIoButtonClicked(){
 function OXOButtonClicked(){
     window.open('https://jkolomanski.shinyapps.io/oxo-2/')
 }
+
+function rexoplanetsButtonClicked(){
+    window.open('https://github.com/JKolomanski/REXoplanets')
+}
